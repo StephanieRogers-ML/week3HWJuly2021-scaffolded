@@ -25,6 +25,8 @@ body {
 }
 /* TODO: this container class in the center of the screen using flex-direction column */
 .container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     margin-top: 8px;
 }
@@ -124,6 +126,9 @@ Section - Modal
     
     margin: 5% auto;
     width: 80%;
+    display: flex;
+
+
 }
 
 /* The Close Button */
@@ -187,6 +192,7 @@ Deck of Cards
     border-radius: 8px;
     height: 112px;
     width: 112px;
+    
 }
 
 /*

@@ -12,8 +12,11 @@ Why does querySelectAll give us an array of elements?
 
 
 1. (X) Connect the given javascript file to your HTML 
+After connecting the javascript by the absolute path, the buttons did not work yet.
 2. (X) Connect the given styles file to your HTML
+After connecting the styles, the page changed but the container was not center.
 3. (X) Use the styles file to center the container class element in the middle of the screen using flexbox use a flex direction of column
+The flexbox was able to be centered but no cards show yet.
 4.  In your HTML file, inside of the section element that has a class of "win-game-modal", Create a div in your HTML that has a class of modal and id of modal
 	1. add a child div to that modal and give it class of modal-content
 	2. The next 6 steps all happen in the div.modal-content element
