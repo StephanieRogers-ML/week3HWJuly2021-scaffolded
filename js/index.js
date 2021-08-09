@@ -214,9 +214,9 @@ function addStatsToModal() {
   let p = statsParent.querySelectorAll("p.stats");
   // Set the new <p> to have the content of stats (time, moves and star rating)
   // TODO: Update all of the innerHTML text appropriately
-  p[0].innerHTML = "Update the time here with the minutes and seconds";
-  p[1].innerHTML = "Update this with how many moves it took";
-  p[2].innerHTML = "Update this with the star rating";
+  p[0].innerHTML = "Time";
+  p[1].innerHTML = "moves";
+  p[2].innerHTML = "stars";
 }
 
 // TODO: Implement the pseudocode

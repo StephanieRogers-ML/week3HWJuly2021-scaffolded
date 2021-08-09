@@ -127,6 +127,13 @@ Section - Modal
     margin: 5% auto;
     width: 80%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+
+
+
 
 
 }
@@ -307,6 +314,10 @@ Desktops
 
     .modal-content h2 {
         font-size: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
     }
 
     /* Modal Image*/

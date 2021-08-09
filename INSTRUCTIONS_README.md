@@ -28,16 +28,26 @@ The flexbox was able to be centered but no cards show yet.
 		6. (X) Style the modal content and make it look good  (try display flex, justify content center, flex direction column, align items center)
 	3. Once your done styling the modal class implement the following changes
 		1. give your modal class
-			1. (X) position: fixed
+			1. (X) position: fixed This made it so the modal was always on.
 			2. (X) top: 0
 			3. (X) left: 0
 			4. (X) display: none
 5. Go to the JS file and look over the code, using the steps below will guide you on fixing the code.
 	1. (X) Go to the startGame function and implement the pseudo code
+After implementing the start game function I could see the game and could click a card.
 	2. (X) Go to the compareTwo function and implement the pseudo code
+  
+  Sometimes a card will get stuck comparing.
+
 	3. (X) Go the displayMatching Cards function and complete the unimplemented pseudo code
+
 	4. (X) Go to the checkIsGameFinished and implement pseudo code
+
+  Sometimes if the game glitches, I can't finish to see the stats.
+
 	5. (X) Go to the addStatsToModal function and complete the unimplemented pseudocode
+
+  I could get the paragraphs below but couldn't get the modal to work after winning. 
 		1. Also change the innerHTML for the p tags so that they have useful information in it to the user.
 	6. (X) Go to the displayModal function and complete the unimplemented pseudocode
 
